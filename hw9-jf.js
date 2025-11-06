@@ -43,3 +43,44 @@ console.log("Exercise 6:")
 console.log(typeof unassignedVar)
 console.log(typeof explicitNull);
 //A blank string is still a string while null is an object
+
+//Exercise 7
+console.log("")
+console.log("Exercise 7:")
+var isBlocking = true
+console.log(typeof isBlocking)
+isBlocking = "true"
+console.log(typeof isBlocking);
+
+//Exercise 8
+console.log("")
+console.log("Exercise 8:")
+//var 1test = test
+//cant start variable name with a number
+//var test 2 = test
+//cant add a space in variable name
+//var "test" = test
+//cant use special characters like "" in variable name
+console.log("Check Comments")
+
+//Exercise 9
+console.log("")
+console.log("Exercise 9:")
+var counterValue = 50
+counterValue = counterValue /= 5
+counterValue = counterValue -= 3
+console.log(counterValue)
+
+//Exercise 10
+console.log("")
+console.log("Exercise 10:")
+var x = 10
+var y_post = x++
+console.log(y_post)
+console.log(x)
+x = 10
+var z_pre = ++x
+console.log(z_pre)
+console.log(x)
+//the two + after the x adds to the y_post
+//the two + before the x reinitializes x and assigns to z_pre
