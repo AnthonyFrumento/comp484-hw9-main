@@ -85,3 +85,18 @@ console.log(z_pre);
 console.log(x);
 // x++ returns the value before incrementing
 // ++x increments before returning the value
+
+// Exercise 11
+console.log("");
+console.log("Exercise 11:");
+
+var testNumber = 0;
+var testBoolean = false; 
+
+if (testNumber == testBoolean) {
+    console.log("testNumber and testBoolean are loosely equal");
+} else {
+    console.log("testNumber and testBoolean are not loosely equal");
+}
+
+//javascript has something called type coercion which lets different types of values ways to connect to eachother. The boolean value of true = 1 and false = 0. so when using ==, they can actually relate to eachother
